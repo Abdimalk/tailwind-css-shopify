@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="home.css">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body class="bg-orange-100">
+    <!--header-->
+    <div class="flex justify-between">
+        <h1 class="text-amber-900 font-bold text-[2.5em] ml-[30px] mt-[10spx] hover:scale-[0.9]">Shopify</h1>
+        <ul class="sm:flex sm:gap-[40px] sm:bg-amber-950 sm:w-[350px] sm:h-[43px] sm:rounded-[25px] sm:mt-[20px] sm:ml-[10px]">
+            <li class="ml-[35px] mt-[10px] text-white font-normal hover:text-orange-300">_Products_</li>
+            <li class="mt-[10px] text-white font-normal hover:text-orange-300">_Store_</li>
+            <li class="mt-[10px] text-white font-normal hover:text-orange-300">_About us_</li>
+        </ul>
+            <button class=" hidden sm:mt-[20px] mt-[20px] sm:mr-[40px] sm:block sm:px-[25px] sm:py-[5px] sm:bg-amber-950 sm:text-white sm:rounded-t-[25px] sm:hover:text-orange-300" type="submit">Get Started</button>
+        <div class="sm:hidden">
+            <i class="fa-solid fa-bars text-[3em] mr-[30px] mt-[15px]"></i>
+        </div>
+    </div>
+    <!--first container-->
+    <div class="sm:flex justify-around">
+        <!--left side-->
+        <div class="mt-[70px] sm:ml-[40px] ml-[20px]">
+            <h3 class="font-medium text-amber-950 tracking-[2px] text-[2em] decoration-dashed underline">Embrace the pure power of</h3>
+            <h1 class="sm:text-[7em] text-[4em] tracking-widest font-mono text-amber-950 font-semibold">-Nature-</h1>
+            <p class="w-[400px] text-amber-950 font-light">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat aut in, illum deleniti nisi aspernatur corporis a nostrum possimus temporibus necessitatibus, maxime fugit nulla praesentium, omnis doloribus atque sit beatae!</p>
+            <button class="px-[35px] py-[10px] bg-amber-950 text-white rounded-t-[25px] mt-[30px] hover:text-orange-300" type="submit">Buy know</button>
+            <button class="px-[35px] py-[10px] ml-[10px] text-amber-950 border-amber-950 border-[1px] border-dashed rounded-b-[25px] mt-[30px] hover:text-orange-500" type="submit">Discover</button>
+        </div>
+        <!--right side -->
+        <div>
+            <img src="seyrum bg.jpg" alt="" class="w-[400px] rounded-tl-[200px] rounded-br-[200px] hover:scale-[0.9] mt-[50px] h-[450px] sm:ml-[0px] ml-[10px]">
+        </div>
+    </div>
+    <!---second container-->
+    <div>
+        <h3 class="font-black text-center mt-[60px] text-amber-950 tracking-[2px] sm:text-[3em] text-[2em]">Why Choosing us</h3>
+    </div>
+    <!--second-->
+    <div class="sm:flex justify-around mt-[30px] mb-[30px]">
+        <!--box one-->
+        <div class="ml-[60px]">
+            <div class="w-[200px] bg-amber-950 h-[200px] rounded-[50%] relative">
+                <div class="w-[100px] bg-white h-[100px] hover:scale-[1.2] rounded-[50%] absolute top-[50px] left-[48px]">
+                    <i class="fa-brands fa-pagelines text-amber-950 text-[4em] ml-[35px] mt-[20px]"></i>
+                </div>
+            </div>
+            <h4 class="text-amber-950 text-[1.5em] font-semibold font-mono mt-[10px]">Organic Ingredients</h4>
+            <p class="text-amber-950 font-light w-[270px] text-[0.8em]">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur sapiente quaerat cumque recusandae placeat repudiandae ut dolorum, nostrum id totam</p>
+        </div>
+        <!---box 2-->
+        <div class="sm:ml-[0px] ml-[50px] mt-[20px] sm:mt-[0px]">
+            <div class="w-[200px] bg-amber-950 h-[200px] rounded-[50%] relative">
+                <div class="w-[100px] bg-white h-[100px] hover:scale-[1.2] rounded-[50%] absolute top-[50px] left-[48px]">
+                    <i class="fa-regular fa-circle-check text-amber-950 text-[4em] ml-[18px] mt-[18px]"></i>
+                </div>
+            </div>
+            <h4 class="text-amber-950 text-[1.5em] font-semibold font-mono mt-[10px]">Sustainable Practise</h4>
+            <p class="text-amber-950 font-light w-[270px] text-[0.8em]">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur sapiente quaerat cumque recusandae placeat repudiandae ut dolorum, nostrum id totam</p>
+        </div>
+         <!---box 3-->
+        <div class="sm:ml-[0px] ml-[50px] mt-[20px] sm:mt-[0px]">
+            <div class="w-[200px] bg-amber-950 h-[200px] rounded-[50%] relative">
+                <div class="w-[100px] bg-white hover:scale-[1.2] h-[100px] rounded-[50%] absolute top-[50px] left-[48px]">
+                    <i class="fa-brands fa-square-bluesky text-amber-950 text-[4em] ml-[22px] mt-[17px]"></i>
+                </div>
+            </div>
+            <h4 class="text-amber-950 text-[1.5em] font-semibold font-mono mt-[10px]">Cruelty Free</h4>
+            <p class="text-amber-950 font-light w-[270px] text-[0.8em]">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur sapiente quaerat cumque recusandae placeat repudiandae ut dolorum, nostrum id totam</p>
+        </div>
+        <!---end-->
+    </div>
+</body>
+</html>
